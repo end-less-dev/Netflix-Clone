@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background: url(./net-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#home>.wrap{
+    background: rgba(10, 10, 10, 0.7);
+    height: 100vh;
+}
+#home>.wrap>.maxwid{
+    padding: 20px 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+#home>.wrap>.maxwid>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home>.wrap>.maxwid>nav>img{
+    height: 40px;
+    object-fit: cover;
+}
+#home>.wrap>.maxwid>nav>.navbtns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home>.wrap>.maxwid>nav>.navbtns>select{
+    height: 30px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+}
+#home>.wrap>.maxwid>nav>.navbtns>select>option{
+    background: transparent;
+    color: #111;
+}
+#home>.wrap>.maxwid>nav>.navbtns>button{
+    padding: 6.5px 10px;
+    background: red;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#home>.wrap>.maxwid>.hometext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+#home>.wrap>.maxwid>.hometext>.text1{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 800;
+    text-align: center;
+    width: 700px;
+}
+#home>.wrap>.maxwid>.hometext>.text2{
+    font-size: 26px;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    display: block;
+    margin-top: 15px;
+}
+#home>.wrap>.maxwid>.hometext>.text3{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    display: block;
+    margin-top: 20px;
+}
+#home>.wrap>.maxwid>.hometext>.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+#home>.wrap>.maxwid>.hometext>.inp>input{
+    height: 50px;
+    border: none;
+    width: 400px;
+}
+#home>.wrap>.maxwid>.hometext>.inp>input::placeholder{
+    font-family: "Roboto",sans-serif;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+#home>.wrap>.maxwid>.hometext>.inp>button{
+    padding: 9px 15px;
+    background: red;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+/*tv style*/
+.grey{
+    height: 5px;
+    width: 100%;
+    background: gray;
+}
+.tv{
+    background: black;
+    color: #fff;
+}
+.tv>.maxwid{
+    padding: 20px 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .tv>.maxwid>.tvtext{
+    text-align: justify;
+} */
+.tv>.maxwid>.tvtext>.tvtext1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+}
+.tv>.maxwid>.tvtext>.tvtext2{
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Roboto',sans-serif;
+}
+.stran{
+    background: black;
+    color: #fff;
+}
+.stran>.maxwid{
+    padding: 20px 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stran>.maxwid>.strtext>.strtext1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Roboto',sans-serif
+}
+.stran>.maxwid>.strtext>.strtext2{
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Roboto',sans-serif;
+}
+.stran>.maxwid>.stranimg>img{
+    height: 400px;
+}
